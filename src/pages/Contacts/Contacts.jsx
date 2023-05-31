@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 
 export const Contacts = () => {
   return (
-    <div className={styles.contactscontainer}>
+    <div name='contacts' className={styles.contactscontainer}>
       Contacts
     </div>
   )

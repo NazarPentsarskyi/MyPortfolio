@@ -5,6 +5,7 @@ h3 {
   font-weight:300;
 }
 .skillscontainer {
+  width: 1280px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -20,4 +21,10 @@ h3 {
   margin: 0;
   font-size: 1.5rem;
   padding: 70px 0;
+  
+}
+.skills:hover {
+  transform: scale(1.1);
+  transition: 1s ease;
+  background-color: #ffc971;
 }

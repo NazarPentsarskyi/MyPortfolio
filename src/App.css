@@ -36,18 +36,18 @@ html {
 }
 
 a {
-  text-decoration:none;
+  text-decoration: none;
+  padding: 0 20px;
   color: #949c9c;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 a:hover {
   color: #e7e8ec;
+  transform: scale(1.2);
+  transition: 1s ease;
 }
 
-.link {
-  color: #949c9c;
-  padding: 0 20px;
-  text-decoration:none;
-}
+
 

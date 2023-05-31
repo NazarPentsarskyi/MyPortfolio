@@ -3,7 +3,15 @@
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
+
+  font-size: 1.5rem;
+  text-align: start;
   
+}
+
+span {
+  color: #ffc971;
+  font-size: 2rem;
 }
 
 

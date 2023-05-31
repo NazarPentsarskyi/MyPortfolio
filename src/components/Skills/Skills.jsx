@@ -13,11 +13,9 @@ export const Skills = () => {
     <>
       <h3>My Skills</h3>
       <div className={styles.skillscontainer}>
-        <div className={styles.skillsbox}>
         <div className={styles.skills}>
           <img src={ iconHTML } alt='HTML icon' style={{ width: '100px' }} />
           <p>HTML</p>
-        </div>
         </div>
         <div className={styles.skills}>
           <img src={ iconCSS } alt='CSS icon' style={{ width: '100px' }} />

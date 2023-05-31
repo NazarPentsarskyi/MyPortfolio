@@ -1,12 +1,12 @@
 import './App.css';
 
 import { Navbar } from './Navbar';
-import { Home } from './pages/Home/Home';
-import { About } from './pages/About/About';
-import { Skills } from './pages/Skills/Skills';
-import { Projects } from './pages/Projects/Projects';
-import { CV } from './pages/CV/cv';
-import { Contacts } from './pages/Contacts/Contacts';
+import { Home } from './components/Home/Home';
+import { About } from './components/About/About';
+import { Skills } from './components/Skills/Skills';
+import { Projects } from './components/Projects/Projects';
+import { Cv } from './components/CV/cv';
+import { Contacts } from './components/Contacts/Contacts';
 
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <CV />
+      <Cv />
       <Contacts />
     </>
   )

@@ -1,8 +1,9 @@
-.projectscontainer {
+.cvcontainer {
   height: 100vh;
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
   align-content: end;
+  
 }
 

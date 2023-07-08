@@ -3,7 +3,10 @@
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
-  align-content: end;
-  
+  align-content: center;
+}
+
+a {
+  margin-bottom: 20px;
 }
 

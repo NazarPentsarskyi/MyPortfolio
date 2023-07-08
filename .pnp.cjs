@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:0.3.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:18.2.0"],\
+            ["react-scroll", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:1.8.9"],\
             ["vite", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:4.3.9"]\
           ],\
           "linkType": "SOFT"\
@@ -3184,6 +3185,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash.throttle", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/lodash.throttle-npm-4.1.1-856641af92-129c0a28ce.zip/node_modules/lodash.throttle/",\
+          "packageDependencies": [\
+            ["lodash.throttle", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["loose-envify", [\
         ["npm:1.4.0", {\
           "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
@@ -3387,6 +3397,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react-refresh", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:0.3.5"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:18.2.0"],\
+            ["react-scroll", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:1.8.9"],\
             ["vite", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:4.3.9"]\
           ],\
           "linkType": "SOFT"\
@@ -3828,6 +3839,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/react-refresh-npm-0.14.0-78ef5eeb73-dc69fa8c99.zip/node_modules/react-refresh/",\
           "packageDependencies": [\
             ["react-refresh", "npm:0.14.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-scroll", [\
+        ["npm:1.8.9", {\
+          "packageLocation": "./.yarn/cache/react-scroll-npm-1.8.9-f47b5ae322-534ea65713.zip/node_modules/react-scroll/",\
+          "packageDependencies": [\
+            ["react-scroll", "npm:1.8.9"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:1.8.9", {\
+          "packageLocation": "./.yarn/__virtual__/react-scroll-virtual-b23c213c9c/0/cache/react-scroll-npm-1.8.9-f47b5ae322-534ea65713.zip/node_modules/react-scroll/",\
+          "packageDependencies": [\
+            ["react-scroll", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:1.8.9"],\
+            ["@types/react", "npm:18.2.7"],\
+            ["@types/react-dom", "npm:18.2.4"],\
+            ["lodash.throttle", "npm:4.1.1"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:8f9681cb059bb4098d93f293a3100e98c449548a4696a6254eacc8b1bc8c5c3cf6518ccbf3e9a4134d8cb103543c7ab8330f1f5dd475263071e636aa4ad6af70#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\

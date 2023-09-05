@@ -23,6 +23,10 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 
+h3 {
+  color:#ffc971;
+}
+
 .navbar {
   width: 100%;
   grid-column-start: 1;
@@ -47,6 +51,23 @@ a:hover {
   color: #e7e8ec;
   transform: scale(1.2);
   transition: 1s ease;
+}
+
+.backToUp {
+  position: fixed;
+  bottom: 50px;
+  right: 70px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.backToUp:hover {
+  background-color: #ffc971;
+}
+
+.backToUp:active {
+  background-color: #ffc971;
 }
 
 

@@ -16,7 +16,7 @@ export const About = () => {
         <br />
         The project is almost completed, and the final stage is design and code improvement.
         <br />
-        I will be really grateful for the opportunity to join your team as a Junior developer or an intern.
+        I will be really grateful for the opportunity to join your team as a Junior developer or an Intern.
         <br />
         See you!
         </p>

@@ -5,16 +5,21 @@ import iconWeather from '../../assets/icon_Weather.png';
 export const Projects = () => {
   return (
     <>
-      <h3>My Projects</h3>
       <div name='projects' className={styles.projectscontainer}>
-      
-        <div className={styles.projects}>
-          <img src={ iconShevchenko } alt='Shevchenko icon' style={{ width: '120px' }} />
-          <p>Винниківська Просвіта</p>
-        </div>
-        <div className={styles.projects}>
-          <img src={ iconWeather } alt='Weather icon' style={{ width: '142px' }} />
-          <p>Weather Application</p>
+        <h3>My Projects</h3>
+        <div className={styles.projectslinks}>
+          <div className={styles.projects}>
+            <a href='https://github.com/NazarPentsarskyi/ProsvitaVynnyky_v2' target='_blank'>
+              <img src={ iconShevchenko } alt='Shevchenko icon' style={{ width: '120px' }} />
+              <p>Винниківська Просвіта</p>
+            </a>
+          </div>
+          <div className={styles.projects}>
+            <a href='https://github.com/NazarPentsarskyi/WeatherApp' target='_blank'>
+              <img src={ iconWeather } alt='Weather icon' style={{ width: '142px' }} />
+              <p>Weather Application</p>
+            </a>
+          </div>
         </div>
       </div>
     </>

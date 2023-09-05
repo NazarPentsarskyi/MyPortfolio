@@ -1,18 +1,18 @@
-h3 {
+.projectscontainer {
+  height: 100vh;
+  display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
-  font-size: 1.8rem;
-  font-weight:300;
+  align-content: center;
+  justify-content: space-around
 }
 
-.projectscontainer {
+.projectslinks {
   width: 1280px;
-  height: 100vh;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
-  
 }
 
 .projects {
@@ -26,8 +26,12 @@ h3 {
   padding: 70px 0;
 }
 
+.projects a {
+  padding: 0;
+}
+
 .projects:hover {
-  transform: scale(1.1);
+  transform: scale(1.075);
   transition: 1s ease;
   background-color: #ffc971;
   color: #1F5183;

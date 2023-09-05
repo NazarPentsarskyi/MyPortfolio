@@ -1,6 +1,5 @@
 import styles from './styles.module.css';
 import { theme } from '../../material/theme';
-import DvrIcon from '@mui/icons-material/Dvr';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';

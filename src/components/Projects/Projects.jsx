@@ -9,7 +9,7 @@ export const Projects = () => {
         <h3>My Projects</h3>
         <div className={styles.projectslinks}>
           <div className={styles.projects}>
-            <a href='https://github.com/NazarPentsarskyi/ProsvitaVynnyky_v2' target='_blank'>
+            <a href='https://github.com/NazarPentsarskyi/ProsvitaVynnyky' target='_blank'>
               <img src={ iconShevchenko } alt='Shevchenko icon' style={{ width: '120px' }} />
               <p>Винниківська Просвіта</p>
             </a>
